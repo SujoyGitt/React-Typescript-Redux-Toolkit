@@ -5,7 +5,6 @@ const Counter = () => {
   const value = useSelector((state: { count: { value: number } }) => state.count.value);
   const dispatch = useDispatch();
   
-  console.log("hi how are you")
   return (
     <div className="bg-gray-900 text-white p-8 rounded-2xl shadow-2xl w-80 text-center border border-gray-700">
       <h2 className="text-2xl font-bold mb-6 tracking-wide">Redux + Thunk</h2>
